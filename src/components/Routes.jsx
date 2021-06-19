@@ -8,13 +8,13 @@ const Routes = () => {
         <div>
             <BrowserRouter>
                 <div className="moviesTitleContainer">
-                  <Link to="/"><h2 className="moviesTitle">Movies</h2></Link>
+                  <Link to="/movieApp"><h2 className="moviesTitle">Movies</h2></Link>
                 </div>                
                 <Switch>
-                <Route path="/:movieId">
+                <Route path="/movieApp/:movieId">
                     <MovieDetails />
                 </Route>
-                <Route path="/">
+                <Route path="/movieApp">
                     <Movies />
                 </Route>
                 </Switch>
