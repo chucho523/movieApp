@@ -1,0 +1,19 @@
+.moviesTitle{
+    color: #fff;
+    position: absolute;
+    margin-right: auto;
+    
+  }
+  .moviesTitleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .return{
+    margin-right: auto;
+    margin-left: 10px;   
+    font-size: 2.3rem;
+    color: #fff;
+  }
