@@ -1,0 +1,15 @@
+.details{
+    margin: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.col{
+    width: 400px;
+    margin: 0 15px;
+}
+.image{
+    border-radius: 10px;
+}

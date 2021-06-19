@@ -1,0 +1,30 @@
+.movie{
+    list-style: none;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+
+}
+.movie:hover{
+    opacity: .8;
+    transition: .3s;
+}
+.image{
+    border-radius: 10px;
+    padding-bottom: 0;
+}
+.texto{
+    margin-top: 0;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .image{
+        width: auto;
+        height: 90vh;
+    }
+    .texto{
+        font-size: 1.4rem;
+        margin-top: 0;
+    }
+}

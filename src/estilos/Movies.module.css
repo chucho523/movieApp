@@ -1,0 +1,14 @@
+.grids{
+    margin: 20px 20px;
+    padding:0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .grids{
+        grid-template-columns: 80%;
+    }
+}
