@@ -20,8 +20,8 @@
 
 @media (max-width: 600px) {
     .image{
-        width: auto;
-        height: 90vh;
+        width: 80%;
+        height: auto;
     }
     .texto{
         font-size: 1.4rem;

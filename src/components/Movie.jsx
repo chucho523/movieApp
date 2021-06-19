@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Movie = ({movie}) => {
     return (
         <li className={styles.movie}>
-            <Link to={`/${movie.id}`}>
+            <Link to={`/movieApp/${movie.id}`}>
                 <img className={styles.image}
                         width={230}
                         height={345}
