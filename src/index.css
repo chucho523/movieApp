@@ -19,3 +19,27 @@ code {
 a{
   text-decoration: none;
 }
+.spinner{
+  border: solid 7px rgba(0, 0, 0, .3);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-left-color: rgb(31, 13, 136);
+
+  animation: spin 1s ease infinite;
+}
+.ajusteSpinner{
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}

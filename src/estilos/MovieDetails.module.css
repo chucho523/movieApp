@@ -6,10 +6,16 @@
     flex-wrap: wrap;
     justify-content: center
 }
+.firstItem{
+    margin-top: 0px;
+}
 .col{
     width: 400px;
     margin: 0 15px;
 }
 .image{
     border-radius: 10px;
+    width: 300px;
+    margin: 0 15px;
+    height: auto;
 }
